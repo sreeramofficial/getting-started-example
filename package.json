@@ -2,5 +2,10 @@
   "name": "root",
   "private": true,
   "devDependencies": {
-  }
+    "lerna": "^5.5.1",
+    "nx": "^14.7.5"
+  },
+  "workspaces": [
+    "packages/*"
+  ]
 }
